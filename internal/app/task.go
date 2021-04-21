@@ -2,16 +2,16 @@ package app
 
 import (
 	"fmt"
-	"github.com/back20/proxypool/config"
-	"github.com/back20/proxypool/pkg/healthcheck"
+	"github.com/singing9907/proxypool/config"
+	"github.com/singing9907/proxypool/pkg/healthcheck"
 	"log"
 	"sync"
 	"time"
 
-	"github.com/back20/proxypool/internal/cache"
-	"github.com/back20/proxypool/internal/database"
-	"github.com/back20/proxypool/pkg/provider"
-	"github.com/back20/proxypool/pkg/proxy"
+	"github.com/singing9907/proxypool/internal/cache"
+	"github.com/singing9907/proxypool/internal/database"
+	"github.com/singing9907/proxypool/pkg/provider"
+	"github.com/singing9907/proxypool/pkg/proxy"
 )
 
 var location, _ = time.LoadLocation("PRC")
